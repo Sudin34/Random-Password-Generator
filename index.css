@@ -88,7 +88,7 @@ margin-bottom: 3rem;
 }
 .pass-box{
     
-width: 45%;
+width: 48%;
 height: 2.5em;
 background: #273549;
 border-radius: 6px;
@@ -96,6 +96,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 color: #55F991;
+padding: 2px;
 }
 .error{
     color: red;
