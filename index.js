@@ -17,7 +17,7 @@ GenerateBtn.addEventListener('click',function(){
          passOne.textContent=""
           passTwo.textContent =""
           }
-    for(i=0;i<PassLength;i++){
+    for(i=0;i<PassLength && i< 17 ;i++){
         
     randomOne=Math.floor(Math.random()*62)
     randomPassOne=characters[randomOne]
