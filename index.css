@@ -96,11 +96,8 @@ align-items: center;
 color: #55F991;
 padding: 2px;
 }
-*{
-    outline: 1px solid red;
-}
 .error{
-    outline: 1px solid red;
+
     color: red;
     margin: 0;
     padding: 0;
