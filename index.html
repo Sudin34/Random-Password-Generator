@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Passwprd Generator</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="main-container" class="dark-theme">
+            <!-- <div class="theme-select">
+            <label class="theme-label dark-theme" id="dark-theme">Dark Mode<input type="radio" class="radio" id="radio" name="theme"></label>
+            <label class="theme-label light-theme" id="light-theme">Light Mode<input type="radio" class="radio" id="radio" name="theme"></label>
+            </div> -->
+            <h1>Generate a<br> <span>random password</span></h1>
+            <h3>Secure passwords with one just one click.</h3>
+            <div class="button-container"> 
+            <button id="generate-Btn" class="gen-btn">Generate passwords</button>
+            <input class="length-el" id="length-el" type="number" value="length" placeholder="Specify length" min="8" max="18">
+            <p id="error" class="error"></p>
+            </div>
+            <div class="line"></div>
+            <div class="pass-container">
+            <div id="pass-one" class="pass-box"></div>
+            <div id="pass-two" class="pass-box"></div>
+            </div>
+    
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
